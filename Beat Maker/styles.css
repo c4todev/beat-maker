@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: #283149;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  text-shadow: 1px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+ 
+}
+
+img {
+  width: 100px;
+}
+
+.page {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+align-items: center;
+}
+
+.midi {
+  background-image: url(./images/midi-controller.png);
+  background-repeat: no-repeat;
+  width: 860px;
+  height: 532px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#first {
+  margin-left: 10px
+}
+
+#fifth {
+  margin-left: 10px
+}
+
+#eighth {
+  margin-right: 2px;
+}
+
+.set {
+
+  display: grid;
+  grid-template-columns: repeat(4, 0fr);
+  margin-top: 95px;
+  gap: 14px;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  border-radius: 8px;
+  display: flex;
+  width: 105px;
+  height: 105px;
+  background-color: transparent;
+}
